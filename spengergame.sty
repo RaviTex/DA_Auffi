@@ -1,0 +1,89 @@
+\ProvidesPackage{spengergame}
+
+\RequirePackage{ifthen}
+
+\RequirePackage{fancyhdr}
+\fancyhf{}
+\fancyfoot[RO,LE]{\thepage} % Seitenzahl im Footer links/rechts
+\fancyhead[LE]{\leftmark} % Kapitel im Header links bei ungeraden Seiten
+\fancyhead[RO]{\rightmark} % Section im Header rechts bei geraden Seiten
+
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\fancyfoot[RO,LE]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+	\renewcommand{\footrulewidth}{0pt}% Line at the footer invisible
+}
+
+\fancypagestyle{totallyplain}{%
+	\fancyhf{} % clear all header and footer fields
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}
+}
+
+
+% Titelseite einer einzelnen Diplomarbeit
+% adaptiert von https://github.com/Digital-Media/HagenbergThesis
+\newcommand{\trennseite}[4]{
+	\cleardoublepage
+	\thispagestyle{totallyplain}
+	\addcontentsline{toc}{chapter}{#1}
+	\rule{0mm}{1mm}
+	\vspace*{0mm}
+	\begin{center}%
+		\normalfont
+		\setlength{\unitlength}{1cm}
+		\parbox[c][5cm][c]{12cm}{\centering\LARGE\bf
+			\setlength{\baselineskip}{25pt}
+			#1
+			\vskip 15mm%
+			{\large\sc #2}}
+		\vskip 15mm%
+		\vskip 15mm%
+		{\Large\iflanguage{ngerman}
+			{D\,I\,P\,L\,O\,M\,A\,R\,B\,E\,I\,T}
+			{D\,I\,P\,L\,O\,M\,A\, \,T\,H\,E\,S\,I\,S}
+		}
+		\vskip 12mm%
+		{\large\iflanguage{ngerman}{betreut durch}{supervised by}}%
+		\vskip 1mm%
+		{\large #3}%
+		\vskip 16mm%
+	\end{center}%
+	\vfil%
+}
+
+% Switch from German to English (babel)
+\newenvironment{english}%
+{\begin{otherlanguage}{english}}%
+	{\end{otherlanguage}\ignorespacesafterend}% 
+
+
+% Für den Anhang - Formatierung einer Dateiliste
+% siehe https://github.com/Digital-Media/HagenbergThesis
+\newcommand{\hgb@MainLanguage}{german}
+\providecommand{\hgb@PathName}{Pfad}
+\newenvironment{FileList}[1]%
+{%\paragraph{Pfad:} \url{#1}
+	\ifthenelse{\equal{\hgb@MainLanguage}{german}}
+	{\renewcommand{\hgb@PathName}{Pfad}}%
+	{\renewcommand{\hgb@PathName}{Path}}%
+	\paragraph{\hgb@PathName: \nolinkurl{#1}}
+	\begin{list}{}%
+		{\setlength{\leftmargin}{5cm}
+			\setlength{\labelwidth}{4cm}
+			\setlength{\labelsep}{0.25cm}
+			\setlength{\rightmargin}{0cm}
+			\setlength{\itemindent}{0cm}
+			\setlength{\itemsep}{0.5ex}
+			\setlength{\parsep}{0ex}
+			\setlength{\topsep}{1ex}
+			\raggedright
+	}}%
+	{\end{list}}
+
+\def\widedotfill{\leaders\hbox to 8pt{\hfil.\hfil}\hfill}
+
+\newcommand{\fitem}[1]{%
+	\item[\nolinkurl{#1}\widedotfill]
+}
