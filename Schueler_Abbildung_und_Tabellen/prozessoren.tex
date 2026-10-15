@@ -1,0 +1,22 @@
+\chapter{Tabellen und Code}
+Tabellen werden häufig eingesetzt um numerische Zusammenhänge, Testergebnisse
+etc.\ in übersichtlicher Form darzustellen. Ein einfaches Beispiel ist Tab.~\ref{tab:processors}.
+
+\begin{table}
+	\caption{Prozessor-Familien im Überblick.}
+	\label{tab:processors}
+	\centering
+	\setlength{\tabcolsep}{5mm}	% separator between columns
+	\def\arraystretch{1.25}			% vertical stretch factor (Standard = 1.0)
+	\begin{tabular}{|r||c|c|c|} \hline
+		& \emph{PowerPC} & \emph{Pentium} & \emph{Athlon} \\
+		\hline\hline
+		Manufacturer & Motorola & Intel & AMD \\
+		\hline
+		Speed & high & medium & high   \\
+		\hline
+		Price & high & high   & medium \\
+		\hline
+	\end{tabular}
+\end{table}
+
