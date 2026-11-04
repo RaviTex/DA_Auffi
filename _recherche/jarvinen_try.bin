@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>View of Gran Stylissimo: The Audiovisual Elements and Styles in Computer and Video Games</title>
+
+	
+<link rel="icon" href="https://dl.digra.org/public/journals/2/favicon_en_US.png">
+<meta name="generator" content="Open Journal Systems 3.3.0.17">
+<meta name="google-site-verification" content="LBZQ5H_2ki9-5ZRJIDXYuZ-AqLnGIsOcgBgLqc5zA_E" />
+	<link rel="stylesheet" href="https://dl.digra.org/index.php/dl/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://dl.digra.org/index.php/dl/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://dl.digra.org/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.17" type="text/css" />
+	<script src="https://dl.digra.org/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.17" type="text/javascript"></script><script src="https://dl.digra.org/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.17" type="text/javascript"></script><script src="https://dl.digra.org/plugins/themes/digra/js/lib/popper/popper.js?v=3.3.0.17" type="text/javascript"></script><script src="https://dl.digra.org/plugins/themes/digra/js/lib/bootstrap/util.js?v=3.3.0.17" type="text/javascript"></script><script src="https://dl.digra.org/plugins/themes/digra/js/lib/bootstrap/dropdown.js?v=3.3.0.17" type="text/javascript"></script><script src="https://dl.digra.org/plugins/themes/digra/js/main.js?v=3.3.0.17" type="text/javascript"></script>
+</head>
+<body class="pkp_page_article pkp_op_view">
+
+		<header class="header_view">
+
+		<a href="https://dl.digra.org/index.php/dl/article/view/19" class="return">
+			<span class="pkp_screen_reader">
+									Return to Article Details
+							</span>
+		</a>
+
+		<a href="https://dl.digra.org/index.php/dl/article/view/19" class="title">
+			Gran Stylissimo: The Audiovisual Elements and Styles in Computer and Video Games
+		</a>
+
+		<a href="https://dl.digra.org/index.php/dl/article/download/19/19/16" class="download" download>
+			<span class="label">
+				Download
+			</span>
+			<span class="pkp_screen_reader">
+				Download PDF
+			</span>
+		</a>
+
+	</header>
+
+	<script type="text/javascript">
+		// Creating iframe's src in JS instead of Smarty so that EZProxy-using sites can find our domain in $pdfUrl and do their rewrites on it.
+		$(document).ready(function() {
+			var urlBase = "https://dl.digra.org/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=";
+			var pdfUrl = "https://dl.digra.org/index.php/dl/article/download/19/19/16";
+			$("#pdfCanvasContainer > iframe").attr("src", urlBase + encodeURIComponent(pdfUrl));
+		});
+	</script>
+
+	<div id="pdfCanvasContainer" class="galley_view">
+				<iframe src="" width="100%" height="100%" style="min-height: 500px;" title="PDF of Gran Stylissimo: The Audiovisual Elements and Styles in Computer and Video Games" allowfullscreen webkitallowfullscreen></iframe>
+	</div>
+	<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_id=https%3A%2F%2Fdl.digra.org%2Findex.php%2Fdl%2Farticle%2Fview%2F19&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.language=en_US&amp;rft.genre=article&amp;rft.title=DiGRA+Digital+Library&amp;rft.jtitle=DiGRA+Digital+Library&amp;rft.atitle=Gran+Stylissimo%3A+The+Audiovisual+Elements+and+Styles+in+Computer+and+Video+Games&amp;rft.artnum=19&amp;rft.stitle=DL&amp;rft.volume=2002&amp;rft.issue=1&amp;rft.aulast=J%C3%A4rvinen&amp;rft.aufirst=Aki&amp;rft.date=2002-01-01&amp;rft_id=info%3Adoi%2F10.26503%2Fdl.v2002i1.19&amp;rft.eissn=2342-9666"></span>
+
+</body>
+</html>

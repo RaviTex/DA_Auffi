@@ -1,0 +1,693 @@
+Gran Stylissimo: The Audiovisual Elements and
+     Styles in Computer and Video Games
+                                      Aki Järvinen
+                                 Hypermedia Laboratory
+                               33014 University of Tampere
+                                         Finland
+                                   +358 3 215 8309
+                                  aki.jarvinen@uta.fi
+Abstract
+The audiovisual appearance of computer and video games is varied. Still, the interplay of sounds
+and images in games has not been studied in any rigorous way. In this paper the concept of
+audiovisual style is introduced to grasp these variations, and categorize existing games into three
+styles. They are called photorealism, caricaturism, and abstractionism. Moreover, elements that
+make up the audiovisual appearance of an individual game are defined: dimensionality, point of
+perception, visual outlook and soundscape. Naming and analysing different styles and elements
+helps us to understand both what kind of audiovisual techniques persist and what has changed in
+the developing field of computer and video games. A continuum is sketched that ranges from the
+caricaturistic Pongs and Space Invaders of the 1970s to ‘the year of Doom’ (1993). The rise of
+three-dimensionality and photorealism during the 1990s is explored, up to recent developments
+where new stylistic directions have began to emerge.
+
+
+Keywords
+Audiovisuality, style, digital aesthetics, game design, computer graphics, digital audio
+
+
+INTRODUCTION
+There are various different approaches to both the audio and visual design
+of computer and video games. For example, there are the so-called classic
+platform jumpers or shooters, where the screen scrolls in vertical direction,
+and the game environment is presented to the player as a cross-section, or
+
+                                          113       Proceedings of Computer Games and Digital Cultures Conference,ed. Frans Mäyrä.
+                                          Tampere: Tampere University Press, 2002. Copyright: authors and Tampere University Press.
+directly from above. In these games we see two coordinates of objects, i.e.
+the width and height. The visual impression is two-dimensional, and the
+sound effects are projected onto this plane. Then there are games where one
+sees characters, houses and other objects from above, from a tilted angle, but
+in such a way, that the horizon is not visible and the lines of perspective do
+not converge. This kind of view is called isometric. Well-known examples
+of games representing/simulating objects from isometric perspective include
+the popular Sim-games, many role-playing games (such as the Baldur’s Gate
+series) and the strategy game series Command & Conquer.                              Järvinen:
+    However, towards the end of the 1990s, game development was                      Gran
+                                                                                     Stylissimo:
+characterised by the movement towards the third coordinate, and thus                 Audiovisual
+three-dimensionality. This was apparent on both the aural and the visual             Elements and
+elements. Technical advancements in audio and graphic accelerators allowed           Styles ...
+the rendering of seamless 3D graphics, and the sense of place could be
+emphasized with the use of 3D positional audio.
+    To sum it up, the audiovisual appearance of games is varied. It has not
+been studied in any rigorous way. In this paper I introduce a concept called
+audiovisual style. It will be used to discuss these variations, and categorize
+existing games into three styles. They are called 1) photorealism, 2)
+caricaturism, and 3) abstractionism. I will also define elements that make up
+the audiovisuality of an individual game. These stylistic categories and game
+elements help us to understand the audiovisuality of computer and video
+games more thoroughly and discern its qualities from, e.g., cinematic use
+of sounds and images. In this way, the paper attempts to create aesthetically
+conscious vocabulary with which to talk about games, analyse them, and
+moreover, give game design and journalism tools to work with.
+
+How is an audiovisual style born?
+‘Style’ has been used and theorized (e.g., by Alois Riegl) in art history to
+characterise dominant techniques in painting, architecture, sculpture etc.
+during different historical periods. Or, style is discussed in relation to certain
+author or ‘school’. [1] We might start to look for Shigeru Miyamoto’s, or
+Warren Spector’s style of designing games, and most probably we would find
+common elements within their respective works. However, here audiovisual
+styles account for the aural and visual variations during the relatively short,
+approximately 40-year-old history of computer and video games.
+    Different elements and their design and implementation affect how the
+audiovisual appearance of an individual game shapes up. One can compare
+this with architecture, for instance: the elements and details of a building
+together constitute its architectonic appearance. Most buildings have
+elements such as windows, but their style (shape, size, ornamentation) can
+vary considerably. The whole architectonic style is a sum of all the individual
+elements. Once a certain kind of sum of elements begins to persist, i.e. there
+appear a number of buildings with similar appearance and design, we can
+discuss them together under a broader category: style.
+
+
+
+                                           114
+                   The audiovisual appearance of a game is born in similar fashion as
+               with buildings. Three elements can be discerned from all computer and
+               video games: 1) space/environment (a football field, for example), 2)
+               different objects (characters, things etc.), and 3) symbols (point counters,
+               health meters, descriptions, help texts etc.). By making choices on how
+               to implement these elements in the game (e.g., whether to design the
+               game environment in two or three dimensions), game’s graphic and sound
+               designers create an audiovisual appearance for the game. In summary: an
+Järvinen:      individual game has an audiovisual appearance. According to it, the game
+Gran           belongs to a certain style.
+Stylissimo:
+Audiovisual        Audiovisual style is, as a concept, a tool for thought and discussion. It
+Elements and   can be used to name and categorize games from an aesthetic perspective – in
+Styles ...     a similar manner the field of visual arts has been categorized into different
+               historical stylistic periods, such as impressionism, realism, cubism, and so
+               on. Naming and analysing different styles helps us to understand both what
+               kind of audiovisual techniques persist and what has changed, and how, in
+               the developing field of computer and video games. Audiovisual elements and
+               styles are about being able to describe different games’ audiovisual form in
+               theoretical terms.
+                   The focus here will be on games’ aesthetic form. Content, or rather genre
+               is the other component that affects audiovisual appearance. We ‘know’ what
+               a game with a science fiction setting should look and sound like, because of
+               various genre conventions that we’ve learned from other media. Regardless
+               of the emphasis on form, I will refer to the ways different audiovisual motifs
+               travel through different media (from film to games and vice versa) and how
+               certain game genre conventions shape the audiovisual appearances of games
+               and, respectively, styles of game genres.
+
+
+               AUDIOVISUAL ELEMENTS OF GAME ENVIRONMENTS
+               In the above, three general elements were discerned from games, with space
+               as the most prominent one. What are game environments made of? They
+               are built on the following: dimension, point of perception, visual outlook,
+               soundscape and senso-motority. But what are these elements, in practice?
+
+               Dimension
+               Dimension affects strongly the experience a game provides, especially the
+               sense of environment, i.e. being in another place. Environment is a keyword
+               when discussing games at a general level. As mentioned before, it can be
+               found in any game from Tetris via Super Mario 64 to The Sims. Moreover,
+               the design of game environments is something that differs from the task of
+               designing interfaces for web pages or software applications (or game menus,
+               even).
+                   A three-dimensional game environment often creates a more powerful, or
+               at least more complex sense of place than a two-dimensional does. If a game
+
+
+                                                115
+is based on exploring and overcoming an environment (as many games are,
+e.g., Tomb Raider style 3D-adventures), the third dimension makes it possible
+to render a multi-layered game environment. A noteworthy example of how
+the choice of dimension affects the game experience is the Grand Theft Auto
+series. The series’ first two instalments (Rockstar Games 1998 & 1999)
+have 2D top-down dimensionality, but in the third part (2001) the game’s
+setting, Liberty City is rendered in 3D. The shift is quite notable: the added
+dimension is more than a technical advancement – it brings another layer to
+the gaming experience altogether.                                                   Järvinen:
+    On the other hand, if the game’s rules demand that the environment is           Gran
+                                                                                    Stylissimo:
+made into a two-dimensional or isometric grid that governs the means of             Audiovisual
+moving (like in many board games, or turn-based strategy games), then               Elements and
+two dimensions or an isometric perspective might well be the appropriate            Styles ...
+solution regarding dimensionality.
+
+Point of perception
+Point of perception is an element closely tied to dimension. Dimension does
+not strictly dictate the point of perception, but it particularly affects how the
+player experiences the auditive elements. Dimension and point of perception
+together make up the game environment’s rough form. Point of perception is
+the position from which the player perceives, i.e. both sees and hears, what
+goes on in the game environment. It can be compared to the dominating
+view discussed in theories of narratives and narration, but it is not quite the
+same thing, because of the highly interactive and non-narrative nature of
+most games.
+    One of the reasons for this is that in games, the player is often able to
+manipulate the point of perception (PoP). It doesn’t have to be static: 1st
+(like in e.g. Doom, the Quake series and other ‘first-person shooters’), 2nd
+(text adventure games) or 3rd person (platform jumpers, Oriental fighting
+games, etc.), but several PoPs can be offered to the player. In other words,
+PoP doesn’t have to be tied to the character or object (starship, car, etc.) that
+the player controls. Even if the PoP is fixed, the ‘virtual camera’ does not have
+to be static, like in Shenmue (Sega 2000) or Ico (Sony 2001), where the player
+is able to pan, tilt and zoom with the camera in order to get a better view of
+the game environment. In Black & White (Lionhead Studios 2001), the player
+can zoom in and out and rotate the game environment at will. As the player
+in the game takes the omnipotent, all-seeing and hearing role of God, the
+point of perception is a mix of first and third person. In many games there
+is an option between 1st and 3rd person points of perception, or possibility
+to choose from different ‘cameras’ (and therefore also ‘microphones’, one
+should add), as in racing and other sport games.
+    In addition, the player can have different, co-existing points of perception
+to the game environment. Typical example is a map of the game environment.
+Usually the player can examine it in a separate view, or as projected on top of
+the game environment. Often the map’s dimension is different from the game
+environment itself: for instance, when a 3D game environment is reduced
+
+
+                                           116
+               into two dimensions in a map. The (audio)visual appearance of the map
+               should be much less detailed than the game environment it approximates
+               – in the end, perceptually a map is always an abstraction of a concrete and
+               detailed space. True, all games do not have maps, or means to zoom in/out,
+               but these games (and their audiovisual style) are usually abstract enough so
+               that the game environment itself can be thought of functioning as a map. This
+               is the case in games such as Tetris, Pong, and other highly abstract games.
+                   The implementation of maps has consequences on the outcome of the
+Järvinen:      audiovisual appearance, and so does the choice of PoP. The latter is also a
+Gran           means to govern the player’s control over the game environment, and how
+Stylissimo:
+Audiovisual    much information s/he is able to gather of it. A first person PoP may entice
+Elements and   stronger identification to the game events and its environment, whereas
+Styles ...     the isometric perspective employed by many ‘god games’ is a means to lift
+               the player above the ‘streets’ to see the bigger picture, so to speak, and do
+               omnipotent things. As mentioned before, Black & White is an example of
+               a game where the combination of the point of perception and dimension
+               allows the player to see and hear both the ground level and an overview.
+                   Let’s end the discussion on dimensionality and point of perception with
+               examples. Here we have three different combinations of dimensionality and
+               PoP from different game genres: 1) Doom (Id Software, 1993) – 3D with 1st
+               person PoP, 2) Virtua Tennis (Sega, 2000) – 3D with 3rd person PoP, and 3)
+               The Sims (Maxis Software, 1999) – isometric dimensionality with 3rd person
+               PoP.
+
+               Visual outlook
+               Dimensionality and PoP are not enough to make up the audiovisual
+               appearance as a whole. They are, in a sense, a stage upon which the visual
+               outlook of the game is drawn. This happens with so-called textures and
+               polygons. If the game characters and environments are a result of fictional
+               settings, the visual outlook is the result of graphic design. If, on the other
+               hand, they are based on real-life counterparts (e.g., sports stadiums, sports
+               stars, characters from films or comics), the characters and environments are
+               modelled on them.
+                    The visual outlook can, and often does originate from another medium
+               and/or product. This happens when a successful film is followed by a
+               game adaptation. Because games are an instance of dynamic, morphing
+               audiovisuality, these motifs travelling across different media are more than
+               still images or static set pieces. Following this logic, we can explain the
+               audiovisual relationships of Hong Kong action movies, The Matrix (1999)
+               and the game Max Payne (Remedy Entertainment 2001). They all have
+               structural similarities in their audiovisual appearance; they use similar
+               audiovisual elements.
+
+
+
+
+                                                117
+Audiovisual Motifs
+In the case of Max Payne and The Matrix, the common element is an
+audiovisual motif. Max Payne takes the Matrix’s famous ‘bullet time’ special
+effects gimmick and gives it to the hands of the player as a gameplay
+mechanism. It not only eases the game tasks (shooting the enemies and
+dodging bullets) but also creates an aesthetic effect of cinematic quality that
+was obviously appreciated by the gamers, especially because the bullet-time
+effect was part of the gameplay, not the cutscenes (where it might have been        Järvinen:
+frowned upon as a case of simple plagiarism).                                       Gran
+    The point is that instead of representing the bullet-time motif, Max            Stylissimo:
+Payne simulates it and gives the player a part to play – literally – in this very   Audiovisual
+                                                                                    Elements and
+simulation. Actually the bullet time gimmick is similar to various ‘speed           Styles ...
+boost’ gameplay features that are found in numerous racing and platform
+games. In the case of Max Payne, the feature is implement in a way that slows
+down the action instead of temporarily accelerating it. Speed boosts etc.
+help gameplay tasks by giving more speed, ‘bullet time’ by slowing down the
+action and allowing the player to shoot the enemies more accurately. ‘Bullet
+time’ was a fruitful motif to borrow for Max Payne, because it was accepted as
+an innovative and audiovisually striking motif in a larger cultural context.
+    An audiovisual motif does not have to be a whole scene, as with the
+‘bullet time’. Another case of an audiovisual motif being transported from
+film to game is found between the film Aliens (1986) and the Aliens vs.
+Predators game series (originally developed for the Atari Lynx handheld in
+1994, on PC 1999-2001). A set piece of the film, the motion sensor that
+detects movement, is implemented highly effectively into the game. Because
+it more specifically an audiovisual map motif, i.e. a motif having to do with
+exploring the game environment, it works especially well in a game setting
+(and has subsequently been adopted to many other games, such as Bungie
+Software’s Halo, 2001).
+    These kinds of metamorphoses through different media do not move
+only in one direction, from film to games, but vice versa as well. The fight
+scenes in The Matrix are influenced by oriental fighting games such as the
+Virtua Fighter series (Sega 1994-2002). Generally, game-based films are
+expected to recreate the audiovisual style of a game, and failing to meet these
+expectations might lead to an unsuccessful showing at the box office.
+    To summarize, audiovisual motif can be used to explain and evaluate
+games’ audiovisual relationships to other audiovisual media. The
+fundamental difference between games and film, and the metamorphosis
+between them, arises from the means that the audience members (viewers
+vs. players) are given ways to manipulate the audiovisual elements and to
+interact with them. Film, largely a narrative medium, allows immaterial
+interpretative interaction: characters and environments are represented.
+Game, largely a non-narrative form, allows material and consequential
+interaction: characters and environments are simulated. (As we see,
+simulation vs. representation is another important distinction regarding
+games and films. For more on the subject, see [2].)
+
+
+                                           118
+               Soundscape
+               Soundscapes in games follow closely the distinction between so-called
+               diegetic and nondiegetic sound in film art [3]. Diegetic sound is a form of
+               sound that originates from the game environment the game simulates, or
+               the environment the film represents. Diegetic sound can consist of urban
+               commotion or of birds singing. Nondiegetic sound equals the musical
+               soundtrack that usually changes according to the events in the film, or
+Järvinen:      game.
+Gran               Because the sense of environment is important in games, therefore
+Stylissimo:    diegetic sound is very important in creating that impression – if, for example,
+Audiovisual    the game takes place in a virtual city, the city’s soundscape is a means to
+Elements and
+Styles ...     emphasize the feel of the environment. Diegetic sound is closely dependent
+               on the point of perception. In addition, it is a necessary means to tell the
+               player that s/he is interacting with the game environment. If one clicks on
+               the mouse in the middle of environment simulated by Doom or Half-life, one
+               expects the weapon in one’s hand to shoot with the relevant sound effects.
+               Both aural and visual feedback (in the form of an animation, for instance) is
+               necessary.
+                   On the other hand, nondiegetic sound is useful in creating atmosphere
+               and expectations, such as drama and suspense. In a game, the relation
+               between the nondiegetic sound and the game events and environment can
+               be considerably more flexible – or more complex, for the composer – than
+               in a film, where the soundtrack is composed according to the editing. We
+               once again return to the importance of simulating space. In games, space is
+               continuous, whereas in films it is segmented due to the fact that narrative
+               film consists of separate scenes (which are connected to each other by the
+               film’s narrative, not necessarily by the space they represent). Changes in the
+               nondiegetic sound, and therefore in the game’s atmosphere, can be tied to
+               certain places of the game environment. When a player approaches a corner
+               or an open door, the music can change, hinting that there is something
+               significant in that very location. Or, the music can change according to the
+               nature of the location. This kind of sound design has been employed in many
+               adventure games, and recently in titles like Halo.
+                   Another usage of nondiegetic sound is found in many sports games. Pop
+               and rock music is used as a continuous soundtrack, without having anything
+               to do with what happens in the game. Or, the soundscape can be purely
+               diegetic, as in simulating the sounds of a football game and the audience in
+               the stadium. In conclusion, soundscape often runs in the visual outlook’s
+               leash. Sound is chosen according to the game environment. This means that
+               often the soundscape of the game differs from the one in game menus and
+               option screens, and, more importantly, from narrative cut-scenes as well.
+                   A league of their own is made up of the different games where the
+               gameplay is based around music or creating it according to rules (Parappa
+               the Rapper, Dance Dance Revolution, Vib-Ribbon, Frequency etc.). These games
+               thread on the border between diegetic and nondiegetic sound as they
+               incorporate the two in real time. In them, exploring game environment shifts
+
+
+                                                119
+towards exploring the soundscape, and often the senso-motoric element
+(see below) is present. Sound-wise game concepts such as these present the
+most inherently game-like use of sound, and therefore it is apparent that
+theories drawn from film theory (as in here) cannot explain them thoroughly.
+However, in conclusion it can be said that the soundscape of a game is always
+the sum of in-game-world sound (diegetic) and off-game-world sound (non-
+diegetic).
+
+Senso-motorism                                                                    Järvinen:
+                                                                                  Gran
+Senso-motorism is an element that ties (literally) the player to the game’s       Stylissimo:
+events. Senso-motorism accounts for the means that are used to get the            Audiovisual
+                                                                                  Elements and
+player’s so-called haptic senses to interact with the information s/he gets       Styles ...
+through eyes and ears. This is a question of interface design: the player is
+given the means to play the game. For instance, the ability to guide Lara
+Croft in Tomb Raider through corridors with a gamepad and make Lara to
+take certain actions when pressing a button on the gamepad. Simply put,
+senso-motorism equals the design of means of interaction with the game
+environment.
+    One should note here that there are two, more or less separate interfaces
+in a game. They tend to differ audio-visually from each other. The first is the
+interface that allows the game to begin: a set of menus where the player can
+choose different options and game modes. The second is the interface to the
+actual game (environment). The first should comply with the principles of
+usability (familiar from e.g., web and software design). The other works in
+quite a contrary manner, because a game usually requires some sort of senso-
+motoric difficulty in order for the game to be challenging, and moreover,
+fun.
+    The history of game development has shown that a new design innovation
+in dimension and point of perception can make an old concept fascinating
+(like in Doom, 1993), but so can new means of senso-motorism. Playing a car
+racing game with a force feedback wheel can make the game feel ‘completely
+new’. The senso-motoric design in a game can also become the trademark
+of a whole subgenre, as in the case of the ‘point-and-click’ adventure games
+that were released in numbers especially during the mid-1990s. Lately more
+complex gaming peripherals have arrived to the market that support various
+forms of senso-motority, i.e. dancing mattresses, snowboards, etc.
+
+
+THE AUDIOVISUAL STYLES
+There cannot be as many styles as there are games – in that case the
+concept would be of no use. A group of games that shares the same sum
+of elements forms a style. Three distinct styles can be formulated from the
+history of computer and video games. The first two are photorealism and
+caricaturism, which have their substyles called televisualism and illusionism.
+Abstractionism is the third style. It is the most marginal one, but it has long
+
+
+                                          120
+               traditions in both the visual arts and computer graphics. In relation to
+               simulation, the styles can be described as follows: photorealism simulates
+               environments and characters familiar from film and real life (the latter is
+               evident especially in sports games). Caricaturism simulates environments
+               and characters familiar from cartoons and comics. In abstractionistic
+               games, basic aural and visual forms are simulated. Each stylistic category is
+               discussed briefly in the following.
+
+Järvinen:      Photorealism
+Gran
+Stylissimo:    Photorealism is a term that is used in art studies to refer to photographic
+Audiovisual    likeness with reality. In so-called photorealistic paintings, the painter has
+Elements and
+Styles ...     pursued the ‘photo effect’, i.e. a deep-focus shot of an actual object, scenery,
+               etc. Photorealism has long traditions in computer graphics, as photorealism
+               is largely about simulation, and the use of computer graphics for scientific
+               purposes has largely consisted of simulating different events (molecular
+               behaviour, etc.). In order to achieve fine-grained, life-like photorealism, one
+               needs thousands and thousands of polygons. This has been one of the goals
+               of photorealism, which has largely been technologically orientated and has
+               led to a particular kind of aesthetic [4]. It has been characterised by an idea,
+               ‘the more photorealistic the images are, the better they are’. As an aesthetic
+               principle in game development, the pursuit for photorealism is often highly
+               dependent on technological factors, or even dictated by them.
+                    The most obvious example of photorealism in the recent history of games
+               are the numerous adventure games from the mid-1990s, where actors were
+               filmed in actual sets and locations. These sequences were incorporated into
+               the game’s graphical backgrounds, or full motion video (FMV) was used.
+               There were games where the environment consisted of still photographs, and
+               the player’s task was to search for ‘hot spots’ in the images with the help of a
+               mouse. The 7th Guest (Trilobyte 1993) is an example of the first case, X-Files
+               – The Game (Fox Interactive 1998) of the latter.
+                    In computer graphics, photorealism is sought by simulating the behaviour
+               of light on different surfaces. ‘Ray tracing’ technique has been used since the
+               1970s to produce images that simulate photorealistic paintings and photos.
+               This tradition of rendering still-life paintings by the means of computer
+               graphics has its successors in games as well. Popular adventure games Myst
+               (Cyan 1993) with its sequels, Riven (1997) and Myst III: Exile (2001), have
+               been based on rendering still-life images for the purposes of ‘point-and-click’
+               adventure gaming.
+
+               Televisualism
+               As an audiovisual style of games, photorealism has its subcategories.
+               These are televisualism and illusionism. The first is especially apparent in
+               sports simulators (e.g., the popular FIFA and NHL series by EA Sports).
+               First and foremost, they simulate the aesthetics of sports event television
+               broadcast. The dynamics of the sport becomes often secondary to the
+
+
+                                                 121
+pursuit for televisualism. The conventions of sports televising become
+apparent in, e.g. the instant replay and multiple camera view features in
+the game. In addition, simulating the soundscape of the stadium, and
+motion-capturing actual athletes for animating the characters, point to the
+pursuit for the reproduction of life-likeness, i.e. simulation of a sport event.
+Gran Turismo 3 (Polyphony 2001), the ‘real driving simulator’ for PS2, has
+widely been hailed as a milestone in photorealism, and this was also visible
+in it’s marketing campaign. Photorealism has lately been adapted to three-
+dimensionality as well.                                                              Järvinen:
+                                                                                     Gran
+                                                                                     Stylissimo:
+Illusionism                                                                          Audiovisual
+                                                                                     Elements and
+The second subcategory, illusionism, is about using photorealism for
+                                                                                     Styles ...
+fantastic and imaginary purposes. Similar technique is found in science
+fiction and fantasy films, where imaginary things are represented with
+photorealistic life-likeness, and the result is an illusion of unreal worlds,
+things and beings actually existing. Final Fantasy, in both its film and recent
+game incarnations, is a prime example. In other words, illusionism equals
+fictional photorealism, or “second-order realism” [5]. A point of comparison
+is found in the world of playing: for the duration of a game, the participants
+share a second-order reality where everyday things can be temporarily
+‘transformed’ for the purposes of the game or its rules (i.e. in children’s play,
+a room transforms into a ‘bank’ with ‘accountants’). When the game ends,
+second-order reality is substituted back to everyday reality.
+     Another example of illusionism in games is the Aliens vs. Predator series.
+Instead of the visual outlook being in these games being caricaturistic,
+comics-like, it simulates the science fiction setting of its cinematic
+predecessors. In this way, illusionism in games has its counterparts in visual
+arts and early film (e.g., the special effects movies of Georges Mélies). The
+static worlds of the Myst series belong to illusionistic photorealism, and Max
+Payne threads somewhere in between illusionism and televisualism, as it
+uses cinematic techniques (and comics in its narrative sequences) but also
+corresponds to the hard-boiled detective tradition in popular fiction.
+     So we see that the categories’ borders are not strict (this is illustrated in
+the Table 1 below). However, it is important to draw a line here between
+gameplay sequences and narrative sequences (cinematic cut-scenes etc.). In
+an individual game, the cut-scenes, mission briefings, interface elements etc.
+might adhere to the principles of televisualism, but the game environment
+itself is illusionistic.
+
+Caricaturism
+Caricaturism refers to caricaturistic depictions of characters and objects
+found in comics, cartoons and, of course, caricatures. In a caricature, the
+representation of a character or an object is simplified down to its most
+characteristic features. As an audiovisual style of games, caricaturism is
+about simplifying and non-photographic simulation. It is true that in early
+
+
+                                           122
+               phases the audiovisual capacities of PCs and game consoles were poor, and
+               this left no choices other than caricaturism (or abstractionism, as we’ll see).
+               However, as the audiovisual capacities have developed, caricaturism has
+               provided an option to photorealism when an altogether different audiovisual
+               appearance has been the goal.
+                   Audiovisual style can be used to focus the gaming experience to a certain
+               direction, for instance, to a certain target group. Whereas the sports game
+               audience seems to appreciate photorealism, children and playfully-minded
+Järvinen:      go for caricaturism. Because of this, few games aimed at children opt for
+Gran           photorealism. Instead, their style is closer to the caricaturism of cartoons.
+Stylissimo:
+Audiovisual    Caricaturistic games simulate the worlds that are represented in cartoons.
+Elements and   Even though caricaturism is about simulating things ‘unrealistically’, the
+Styles ...     emotional and aesthetic experiences they provide can feel, at least in the
+               minds of children, quite lively and real [5].
+                   Well-known examples of caricaturistic games include the Crash Bandicoot
+               (Naughty Dog 1996-2001) and Final Fantasy (Squaresoft 1987-2001) series
+               and also Nintendo’s Legend of Zelda: Ocarina of Time (Nintendo 1998).
+               Moreover, games that use comics as the origin of their audiovisual appearance
+               (e.g. Freedom Force [Irrational Games 2002]) belong to caricaturism.
+                   The style has a fashionable side to it as well. An original audiovisual
+               appearance is a means to distinguish oneself from the crowd, and, e.g., the
+               ‘rap simulator’ Parappa the Rapper (1997, sequel for PS2 in 2001) worked
+               this in its favour. Smilebit Studios’ Jet Set Radio (for Dreamcast, 2000) and
+               the sequel Jet Set Radio Future (Xbox, 2001) deserve to book a place in games’
+               audiovisual history as pioneers of the ‘cel shading’ movement. Cel shading
+               achieves a cartoonesque, graffiti-like effect despite being three-dimensional.
+               The PS2 racing game Auto Modellista (Capcom 2002) presents an exception
+               to the genre dominated by photorealism (cf. the afore-mentioned GT3).
+                   When talking about the Jet Set Radio games, it is relevant to emphasize
+               the word audio-visual in its full meaning. A significant part of the games’
+               fascination comes from the soundtrack with its trendy electronica and club
+               beats. A suitable point of comparison from a different audiovisual style is the
+               Tony Hawk Pro Skater series (Activision 1999-2001) which goes for similar
+               kind of subcultural sensibility with its audiovisuality but with decidedly
+               different stylistic combination: photorealism complemented with rock and
+               hip-hop-orientated soundtrack.
+
+               Abstractionism
+               Abstractionism does not simulate characters or easily recognizable places.
+               Abstractionism is about pure forms. Tetris (with its many variations) is a
+               pioneer in this style. In the recent history of games, there are quite few
+               abstractionistic games. In fact, pure abstractionism is very rare. Why is that?
+               As we have noted, games simulate at least an environment, if nothing else.
+               For example, many puzzle computer and video games, which resemble
+               board games, emphasize forms and their relations, but often these forms are
+
+
+
+                                                123
+extremely caricaturised rather than completely abstract (e.g. chess pieces,
+the ‘racquets’ in Pong, and the ‘snake’ in Nokia’s game for mobile phones).
+    In abstractionism the border between the game’s concept (rules &
+gameplay mechanism) and audiovisual style is almost indistinguishable.
+Only a highly abstract game, i.e. a game that consists of rules, audiovisual
+forms and the game interface, can function well in abstractionistic style,
+Tetris being the prime example.
+    Still, abstractionism does have its representatives. Tempest (with its
+various incarnations, originally an arcade version in 1981, for Playstation in     Järvinen:
+1997 etc.) is visual and aural forms’ abstractionistic dialogue. Sentinel (1985)   Gran
+                                                                                   Stylissimo:
+and its sequel (Sentinel Returns, Psygnosis 1998) are abstractionistic, both       Audiovisual
+regarding their concept and audiovisual style.                                     Elements and
+    Lately Rez (PS2 and Dreamcast, Sega 2001) has given abstractionism             Styles ...
+fresh new life, and in 3D, naturally. It is only fitting that the game, with its
+kinaesthetic sensations, senso-motorism in connection with aural and visual
+pleasure, is dedicated to Wassily Kandinsky, a pioneer of the abstract arts.
+    But why is abstractionism used so few and far between in games? The
+explanation is found in the tendency to create contexts familiar from
+popular fiction to frame the gameplay, complemented with efforts to tell
+stories through games. In these cases, the characters, objects, sounds and
+environments have to be concretised into something recognizable from
+other forms of fiction. In other words, the abstract forms of Rez and Tetris
+become spaceships, cities, martial arts fighters, Sims, Max Paynes, and so
+on. Abstractionism is about simulating pure forms, and therefore not very
+suitable for creating narrative contexts to accompany the gameplay, as often
+happens nowadays. There seems to be no end to this development, quite vice
+versa, and therefore abstractionism might end up as a marginal booknote
+in the history, and future, of an audiovisual cultural form also known as
+computer and video games.
+
+
+AUDIOVISUAL STYLES ILLUSTRATED
+A certain combination of the audiovisual elements discussed above does
+not lead to a certain style. This might be true if there were not the present
+over-abundance of 3D games. However, as the 3D has become dominant, the
+styles mainly come down to the sum of the visual outlook and soundscape.
+Photorealistic games tend to go for aural realism as well, but games like
+Tetris and Rez go for abstract soundscapes. In the latter, the soundscape is
+a combination of an electronic beat and the sound effects that the player
+produces and that become part of the soundscape. The difference in logic
+persists on the senso-motoric design as well: whereas in photorealistic
+games, such as rally driving games, the senso-motoric feedback is in causal
+relationship to the game-world (i.e. you hit a rock and feel it in your palms),
+in the abstractionism of Rez there is a constant pulse (the beat) thumping
+your palms.
+
+
+
+                                          124
+                    The styles’ spectrum is illustrated in the Table 1 below with well-known
+               games presenting different styles. There are distinct contrasts between
+               different styles: the stylised caricaturism of Jet Set Radio and Jet Set Radio
+               Future vs. the pursuit for photorealism in the Tony Hawk Pro Skater series,
+               even when both game series have to do with similar subjects (roller-
+               skating and skateboarding). Another notable shift is the one from the 2D
+               abstractionism of Tetris to the 3D audiovisuality of Rez.
+                    From a historical perspective, following outlines can be drawn: from the
+Järvinen:      Pongs and Space Invaders of the 1970s, up to 1993, caricaturism was the norm,
+Gran           much due to technological limitations. For example, three-dimensional
+Stylissimo:
+Audiovisual    game environments consisted of wireframe graphics, which is essentially
+Elements and   a caricaturistic technique, i.e. a multi-dimensional object simplified to its
+Styles ...     recognisable essentials. This serves to point out how, if simplified enough,
+               caricaturism begins to resemble abstractionism. Regarding audiovisual
+               elements, this was an era of 2D and 3rd person point of perception.
+                    In 1993, Doom exploded the textured 3D environments to the domestic
+               PC market. The rest of the 1990s was dominated by the pursuit of
+               photorealism, also apparent in the boom of full-motion video cut-scenes.
+               Besides 3D, the first person point of perception became much more than a
+               curiosity: it became almost as common as the 3rd person PoP.
+                    In 2000-2002, photorealism seems to be reaching a saturation point.
+               This is apparent in the birth of non-photorealistic substyles, such as the
+               cel shading aesthetic. This does not mean that photorealism goes away,
+               but games’ audiovisual field seems to be becoming more diverse. This is
+               a sign of no less than an art form having reached the self-reflective phase,
+               i.e. a maturing process of sorts. The outcome of which are new emerging
+               audiovisual styles.
+                    The table that follows presents a tool for game analysis, and offers a
+               systematic framework for talking about games’ audiovisual appearance
+               instead of the technologically biased and vaguely descriptive methods that
+               are presently used in game studies, design and journalism.
+
+
+
+
+                                                125
+126
+               ELEMENTS AND STYLES IN RELATION TO GENRE
+               To carry the work on from here, game studies would profit from a thorough
+               discussion on the genre problematic, i.e. content in connection with style.
+               In game (sub)genres such as horror and crime, their tradition in popular
+               fiction is both recycled and reinvented for the means of gameplay and
+               rule mechanisms. How do the horror & crime genre conventions used in
+               the Silent Hill series (Sony 1999-2001) or Grand Theft Auto III affect their
+Järvinen:      audiovisual style, and vice versa?
+Gran               In his essay on games and genres, Mark J.P. Wolf argues that games
+Stylissimo:
+Audiovisual
+               should be classified to genres according to their interactivity [7]. This is a
+Elements and   reasonable claim in itself. However, Wolf’s 42 genres (!) cannot explain why
+Styles ...     games like Silent Hill 2, Grand Theft Auto III, Jet Set Radio Future, and Ico (Sony
+               2001) have basically a very similar control mechanism (i.e. senso-motoric
+               design) and each uses 3D with 3rd person PoP, but still, their atmosphere,
+               tempo and audiovisual appearance is quite different from each other. The
+               four games lead to different aesthetic experiences.
+                   The point is that only in abstract games the genre can be reduced to the
+               interaction mechanism, and once conventions and audiovisual motifs start
+               to move between media forms and their respective genres (from cinematic
+               horror to playable horror), the equation is more complex. A subgenre might
+               even be defined according to the audiovisual style (e.g. FPS) or senso-
+               motoric design (point-and-click) it represents. When audiovisual elements
+               and styles, and interaction mechanisms, become fundamental aspects of a
+               cultural form, they can together define a genre.
+                   Game genres are sums of interaction mechanisms and audiovisual
+               elements. Traditional constituents of genres, i.e. characters, settings, and
+               narrative conventions, become subordinate to gameplay and audiovisual
+               appearance. Genre conventions do not disappear, but they can be
+               subordinated to communicating a certain style: the Jet Set Radio games are
+               rather conventional 3D-platform-jumping games by many standards, but
+               their audiovisual style sets them apart. Besides these formalistic issues, game
+               genres are dependent on the players’ interpretations of the game’s world, i.e.
+               recognizing constituents of a genre, or style, and interpreting it as belonging
+               to a larger genre of popular culture, such as horror or crime.
+
+
+
+
+                                                  127
+REFERENCES
+1. On ‘style’ see for instance Macdonald, Raymond A. (1992) “Pluralism in Classical
+   Style Theory: From Rhetoric and Poetics to Art History”. Style, Summer 1992, Vol.
+   26 Issue 2, 165–199; Wallach, Alan (1997) “Meyer Schapiro’s essay on style: Falling
+   into the void”. Journal of Aesthetics & Art Criticism, Winter97, Vol. 55 Issue 1, 11–16;
+   Carroll, Noel (1998) “Film Form: an Argument for a Functional Theory of Style in
+   the Individual Film”. Style, Fall 1998, Avlo. 32. Issue 3, 385-402; Rakel Kallio (1999)
+   “Manierasta ajan tyyliin. Tyylin käsitteen historiallista tarkastelua”. In Kirsi Saarikan-
+                                                                                                Järvinen:
+   gas (ed.) Kuvasta tilaan. Taidehistoria tänään. Tampere: Vastapaino, 19–57.
+                                                                                                Gran
+2. Frasca, Gonzalo (2001) “SIMULATION 101: Simulation versus Representation”. http:             Stylissimo:
+   //www.ludology.org/articles/sim1/simulation101.html (accessed 15.4.2002)                     Audiovisual
+                                                                                                Elements and
+3. See, e.g., David Bordwell & Kristin Thompson (2001), Film Art. Sixth Edition. An In-
+                                                                                                Styles ...
+   troduction. New York: McGraw-Hill, 305–15.
+4. About photorealism’s relation to the development of computer graphics, see Lev
+   Manovich (2001) The Language of New Media. Massachusetts: MIT Press, 184–198.
+5. Darley, Andrew (2000) Visual Digital Culture. Surface Play and Spectacle in New Media
+   Genres. London: Routledge, 82–83.
+6. See, e.g. Stern, Daniel (1992) Diary of a Baby. London: Basic Books; Van Geert, Paul
+   (1983) The Development of Perception, Cognition, and Language: A Theoretical Approach.
+   London: Routledge.
+7. Wolf, Mark J.P. “Genre and the Video Game”. http://www.robinlionheart.com/
+   gamedev/genres.xhtml (accessed 15.4.2002)
+
+
+
+
+                                                 128
+

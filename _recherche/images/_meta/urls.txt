@@ -1,0 +1,6 @@
+aoe2_kandidat1.jpg	https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/ss_83253675c7af3ad5f3f2c1dc2c43c667000e0c4a.1920x1080.jpg
+aoe2_kandidat2.jpg	https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/ss_77792f8c4a7b375fc7c749b6336e61d61830920b.1920x1080.jpg
+aoe2_kandidat3.jpg	https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/ss_f270aa4e146459dc8b75a69bfecf23d13b0e8df6.1920x1080.jpg
+aoe2_kandidat4.jpg	https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/ss_b42dec99b197fea9882abc333e2cfb0a77dd3ed2.1920x1080.jpg
+aoe2_kandidat5.jpg	https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221380/ss_9ccf9acb373b3e26f9e42a053147845561b2c224.1920x1080.jpg
+aoe2_kandidat6.jpg	https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221380/ss_5723ddcec6da4d9697f73882fab90e6cec99a8ad.1920x1080.jpg
