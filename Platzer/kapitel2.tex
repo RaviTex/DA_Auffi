@@ -1,7 +1,7 @@
 \chapter{Isometrische Videospiele}
 \label{cha:Diplomschrift}
 
-Der Beisatz "Isometrisch", bei isometrischen Videospielen, beschreibt die Art, bzw. den Inhalt des Spiels näher und wird genau so verwendet wie andere Beisätze, z.B. FPS%
+Der Beisatz "Isometrisch", bei isometrischen Videospielen, beschreibt die Art, bzw.\ den Inhalt des Spiels näher und wird genau so verwendet wie andere Beisätze, z.B. FPS%
 \footnote{FPS, ausgeschrieben First-Person-Shooter}
 , RTS%
 \footnote{RTS, ausgeschrieben Real-Time-Strategy}
@@ -34,9 +34,26 @@ Die isometrische Perspektive in Videospielen ist nicht streng definiert, lässt 
 
 Spielsteuerungen in isometrischen Spielen sind oft komplexer zu entwickeln als Steuerungen in nicht isometrischen Perspektiven. Objekten werden in Game-Engines klassischerweise eine dreidimensionale Position zugewiesen. In einer perspektivischen Ansicht sind alle drei Achsen gut erkennbar, in der isometrischen Ansicht "verliert" man perspektive und diese Verzerrung führt oft zu Problemen:
 \begin{itemize}
-	\item Eine Bewegung nach "vorne", bzw. eine Bewegung zur oberen Bildschirmkante, passt nicht mit dem "vorwärts" der Game-Engine überein, da sich die Achsen der dreidimensionalen virtuellen Welt in der Game-Engine nicht anpassen, d.h. die Entwickler müssen ihr eigenes "nach vorne", bzw. "rechts" und auch "links" konstruieren.
+	\item Eine Bewegung nach "vorne", bzw.\ eine Bewegung zur oberen Bildschirmkante, passt nicht mit dem "vorwärts" der Game-Engine überein, da sich die Achsen der dreidimensionalen virtuellen Welt in der Game-Engine nicht anpassen, d.h. die Entwickler müssen ihr eigenes "nach vorne", bzw.\ "rechts" und auch "links" konstruieren.
 	\item Durch die "Verschmelzung" von Z- und Y-Achse verliert man das Gefühl für die Höhe, das macht die Implementation von Sprüngen, fallenden Äpfel, oder fliegenden Pfeilen besonders schwierig. Rein optisch kann man nicht unterscheiden ob ein Objekt am Boden rollt oder fliegt, man muss dem Spieler auf andere Weise suggerieren das der Apfel gerade vom Baum fällt.
 	\item Die isometrische Perspektive erbt auch manche Probleme der Top-Down Ansicht. Da die Kamera hoch über der Spielumgebung platziert ist, kann es passieren, dass kleinere Objekte hinter größeren Verschwinden, da die Kollision nicht mit den gerenderten Pixel, meist speziell im oberen Bereich eines Objekts, übereinstimmt. Die isometrische Perspektive verschlimmert das Problem durch die Verzerrung nur noch. Das beste Beispiel für dieses Problem ist, wenn der Spielercharakter direkt an der nicht sichtbaren wand eines Hauses steht.
 \end{itemize}
 
-\section{Vor- und Nachteile isometrischer Perspektive}
+\section{Vor- und Nachteile isometrischer Perspektive}  
+
+Bei der Auflistung der Vor- und Nachteile wurden die Lesbarkeit des Spielfelds, die Auswirkung auf die Immersion und Präsenz im Spiel und Steuerbarkeit bzw.\ den Produktionsaufwand als Wertungsmaßstäbe genommen.
+
+\begin{enumerate}
+	\item \textbf{Übersicht und Lesbarkeit} 
+	Da Objekte in der isometrischen Perspektive nicht im Horizont verzerrt werden, sondern überall am Bildschirm gleich dargestellt werden, ist die Lesbarkeit bei der isometrischen Ansicht vereinfacht.
+	
+	\item \textbf{Informationsdichte}
+	In der Zentralperspektive müssen die relevanten Objekte nahe der Kamera sein, denn, wegen der Entfernung, verkleinerete Objekte sind schwerer lesbar. Die isometrische Ansicht leidet nicht unter diesem Problem. Jedes Objekt wird gleich dargestellt, d.h. der ganze Bildschirm ist kann gelesen werden und damit ist die potentille Informationsdichte höher.
+	\item \textbf{text}
+\end{enumerate}
+
+\subsection{Übersicht und Lesbarkeit des Spielfelds} 
+
+Die isometrische Perspektive hat mehrere Vorteile bei der Lesbarkeit des Spielfelds im Gegensatz zur perspektivischen Ansicht. Jedes Objekt wird am Bildschirm exakt gleich gewichtet bzw.\ exakt gleich groß dargestellt. Dadurch hat der Spieler eine höhere Informationsdichte, was bei Strategie\-spielen von Vorteil ist.
+
+\subsection{Immersion}
